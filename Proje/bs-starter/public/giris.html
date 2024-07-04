@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" 
+    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Giriş</title>
+
+</head>
+<body class="bg-light">
+
+
+    <header>
+        <section class="top-bar">
+            <div class="container">
+                <div class="row gy-3 align-items-center">
+                    <div class="col-md-3">
+                        <a href="index.html" class="navbar-brand"> <img src="img/logo.png" alt="", class="col-lg-3 col-sm-3 col-3"></a>
+                    </div>
+                    <div class="col-5">
+                        <nav class="navbar">
+                            <ul class="navbar-list">
+                                <li><a href="anasayfa.html">Anasayfa</a></li>
+                                <li class="dropdown">
+                                    <ul class="demo-dropdown">
+                                        <li><a href="">Kategoriler</a>
+                                            <ul>
+                                                <li><a href="">Antrenman Odağı
+                                                    <a href="dayaniklilik.html" >Dayanıklılık</a>
+                                                    <a href="">Hareket Kabiliyeti</a>
+                                                    <a href="">Kuvvet</a>
+                                                    <a href="">Yoga</a>
+                                                </a></li>
+                                                <li><a href="">Kas Grubu
+                                                    <a href="">Karın Bölgesi ve Karın Kasları</a>
+                                                    <a href="">Kollar ve Omuzlar</a>
+                                                    <a href="">Kalça Kasları ve Bacaklar</a>
+                                                </a></li>
+                                                <li><a href="">Ekipman
+                                                    <a href="">Temel Ekipman</a>
+                                                    <a href="">Eksiksiz Ekipman</a>
+                                                    <a href="">Ekipman Yok</a>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="onecikanlar.html">Öne Çıkanlar</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    
+                    <div class="order-lg-last col-1">
+                        <div class="text-end">
+                            <a href="" class="btn btn-light">
+                                <i class="fa fa-user"></i> <span class="ms-1 d-none d-sm-inline-block">Giriş</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Ara">
+                                <button class="btn btn-primary">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="giriscard">
+              <div class="card-header">
+                <ul class="nav nav-tabs" id="myTabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login-form">Giriş Yap</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="register-tab" data-toggle="tab" href="#register-form">Kayıt Ol</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="login-form">
+                    <form>
+                      <div class="form-group">
+                        <label for="login-username">Kullanıcı Adı:</label>
+                        <input type="text" class="form-control" id="login-username" placeholder="Kullanıcı Adı">
+                      </div>
+                      <div class="form-group">
+                        <label for="login-password">Şifre:</label>
+                        <input type="password" class="form-control" id="login-password" placeholder="Şifre">
+                      </div>
+                      <div class="text-right mt-3">
+                        <a href="index.html"></a>
+                        <i>
+                            <button type="submit" class="btn btn-primary">Giriş Yap</button>
+                        </i>
+                        
+                      </div>
+                    </form>
+                  </div>
+                  <div class="tab-pane fade" id="register-form">
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="register-firstname">Ad:</label>
+                          <input type="text" class="form-control" id="register-firstname" placeholder="Ad">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="register-lastname">Soyad:</label>
+                          <input type="text" class="form-control" id="register-lastname" placeholder="Soyad">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="register-email">E-posta:</label>
+                        <input type="email" class="form-control" id="register-email" placeholder="E-posta">
+                      </div>
+                      <div class="form-group">
+                        <label for="register-birthdate">Doğum Tarihi:</label>
+                        <input type="date" class="form-control" id="register-birthdate">
+                      </div>
+                      <div class="form-group">
+                        <label for="register-username">Kullanıcı Adı:</label>
+                        <input type="text" class="form-control" id="register-username" placeholder="Kullanıcı Adı" maxlength="20">
+                      </div>
+                      <div class="form-group">
+                        <label for="register-password">Şifre (Maksimum 10 Karakter):</label>
+                        <input type="password" class="form-control" id="register-password" placeholder="Şifre" maxlength="10">
+                      </div>
+                      <div class="text-right mt-3">
+                        <button type="submit" class="btn btn-success">Kayıt Ol</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        // Aktif sekme seçicisi için JavaScript
+        $(document).ready(function(){
+          $('#myTabs a').click(function(e){
+            e.preventDefault();
+            $(this).tab('show');
+          });
+        });
+      </script>
+
+    <div class="space-between"></div>
+
+    <footer class="py-4 bg-primary">
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-md-4">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email">
+                            <button class="btn btn-outline-warning">Abone Ol</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-8">
+                    <nav class="text-center text-md-end">
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="btn btn-icon btn-outline-warning">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </nav>
+                </div>
+                <div class="col-md-12">
+                    <p class="text-center text-white">
+                        @2025 Tüm Hakları Saklıdır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="../node_modules/fslightbox/index.js"></script>
+</body> 
+</html>
