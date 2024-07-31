@@ -27,16 +27,16 @@ Body Training egzersiz, spor ve antrenman alanlarında kullanıcıların ihtiya�
 
 ![image](https://github.com/user-attachments/assets/cd6473c5-cb96-4aaf-b3eb-8a5cc0b70cb1)
 
-![image](https://github.com/user-attachments/assets/e3f1da00-dd88-4857-9b98-c3b5e685d3bd)
+![Ekran görüntüsü 2024-07-31 161728](https://github.com/user-attachments/assets/9f4339ae-e717-4f24-81d8-09940d4b45f5)
 
-![image](https://github.com/user-attachments/assets/d0cf0ee2-88e5-4f37-ba58-ca871856b632)
+![Ekran görüntüsü 2024-07-31 161802](https://github.com/user-attachments/assets/eac9c39d-e756-4022-b3fc-d336994668b4)
 
-![image](https://github.com/user-attachments/assets/49068cc8-de17-4437-b434-524620c1c209)
+![image](https://github.com/user-attachments/assets/10745379-12ee-4122-a8ed-386c80412034)
 
-![image](https://github.com/user-attachments/assets/ba971ee1-6411-493f-ae37-eb1abcb8a00a)
+![image](https://github.com/user-attachments/assets/e7711e09-ed6e-410c-b7db-95795f6370fa)
 
 ![image](https://github.com/user-attachments/assets/6f2b057f-4568-43c3-b424-fa866ef10187)
 
-![image](https://github.com/user-attachments/assets/54ec234a-59b3-40e9-9c04-a99e93b905a2)
+![image](https://github.com/user-attachments/assets/0d9efc2d-3482-4d4f-bff6-f8fc15029a37)
 
 
