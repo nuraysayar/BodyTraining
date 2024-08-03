@@ -108,7 +108,7 @@
   }
   
 .demo-dropdown > li {
-    position: relative; /* içerisinde ul position:absolute değerine sahip olduğu için kapsayıcı li relative olmalı */
+    position: relative; 
     display: inline-block;
   }
   
@@ -139,10 +139,18 @@
   }
   
 .demo-dropdown > li ul li a {
-    color:#333;
+    font-weight: normal;
+    font-size: 14px;
     padding: 10px 15px;
-    border-bottom: 1px solid#e2e2e2;
+    color: #212529;
   }
+
+.demo-dropdown > li ul li a.main-category{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #212529;
+}
   
 .demo-dropdown > li ul li:hover a {
     background-color:rgba(0, 0, 0, 0);
@@ -172,4 +180,35 @@
     margin-bottom: 50px; /* Ayarlamak istediğiniz boşluğu belirleyin */
 }
 
-     
+.login-dropdown .login-dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    top: 100%;
+    width: 100px; /* İstediğiniz genişliği ayarlayın */
+    margin-top: 1px; /* İstediğiniz boşluğu ayarlayın */
+}
+
+.login-dropdown:hover .login-dropdown-menu {
+    display: block;
+}
+
+.login-dropdown .login-dropdown-menu li {
+    display: block;
+}
+
+.login-dropdown .login-dropdown-menu li a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.login-dropdown .login-dropdown-menu li a:hover {
+    background-color: #f5f5f5;
+}     
