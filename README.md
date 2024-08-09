@@ -1,5 +1,5 @@
 # Body Training
-Body Training egzersiz, spor ve antrenman alanlarında kullanıcıların ihtiyaçlarına yönelik geliştirilmiş bir web uygulamasıdır. Uygulama HTML, CSS, JavaScript, Bootstrap, PHP ve MySQL kullanılarak geliştirilmiştir.
+Body Training egzersiz, spor ve antrenman alanlarında kullanıcıların ihtiyaçlarına yönelik geliştirilmiş full stack bir web uygulamasıdır. Uygulama HTML, CSS, JavaScript, Bootstrap, PHP ve MySQL kullanılarak geliştirilmiştir.
 # Teknolojiler
 - Frontend:
   - HTML
